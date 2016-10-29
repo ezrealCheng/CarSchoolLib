@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
 
   s.name         = "CarSchool"
   s.version      = "0.0.1"
-  s.summary      = "A short description of CarSchool"
+  s.summary      = "CarSchool is myself first test object"
 
   s.homepage     = "https://github.com/ezrealCheng/CarSchoolLib"
 
