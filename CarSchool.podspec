@@ -33,10 +33,11 @@ s.dependency 'SVProgressHUD'
 
   #s.source_files  = "Classes", "Classes/**/*.{h,m}"
   #s.exclude_files = "Classes/Exclude"
+s.public_header_files = 'CarSchoolLib/*.h’
   s.subspec 'CarSchoolLib' do |ss|
         ss.source_files = 'CarSchoolLib/*.h'
-        ss.public_header_files = 'CarSchoolLib/*.h’
-    end
+#ss.public_header_files = 'CarSchoolLib/*.h’
+  end
 
 
 end
